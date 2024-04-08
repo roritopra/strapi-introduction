@@ -55,6 +55,14 @@
     },
     "rol": {
       "type": "string"
+    },
+    "prueba": {
+      "type": "enumeration",
+      "enum": [
+        "verde",
+        "amarillo",
+        "morado"
+      ]
     }
   }
 }

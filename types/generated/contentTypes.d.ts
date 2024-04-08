@@ -386,6 +386,7 @@ export interface ApiTeamTeam extends Schema.CollectionType {
     nombres: Attribute.String;
     palabras: Attribute.Text;
     rol: Attribute.String;
+    prueba: Attribute.Enumeration<['verde', 'amarillo', 'morado']>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
